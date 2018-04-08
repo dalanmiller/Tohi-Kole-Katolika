@@ -1,0 +1,12 @@
+{
+  "prayers": [
+    {
+      "name_tongan": "Ndavwana ndi Ada Achiuta Mulengi",
+      "name_english": "The Apostles' Creed",
+      "section": "???",
+      "text":
+        "Ndavwana ndi Ada Achiuta\nMulengi wakuchanya ndi charu chapasi\nNdi Mwaku Yesu Kristu, Mwana waki yija wada widu\nKuziya mwa muzimu utuwa,\nwanguwa mwa ku Maria\nWangusuzgika ndi Apolinto Pilato,\nwangukhomeka pa mpinjika, \nwangufwa ndikuwikika mu muwunda ndi kuja ndiwakufwa \nZuwa lachitatu wanguwuka ku wakufwa \nWakuluta KuChanya, \nNdikuja kujanja la Maryi la KuChiuta Ada wantazi yosi \nKutuwiya kuchanya wazengu kwajeluzga wamoyo ndi wakufwa \nNdigomezga mu mzimu utuwa\nNdigomezga tchalichi la Katolika \nwatuwa ndi wumoza wawu wa wangelo \nKugowokereka Mpulupulu \nKuuka Kwa Wakufwa \nKuja ndi Umoyo wambura kumala. Amen."
+    }
+  ],
+  "version": "1.0"
+}
