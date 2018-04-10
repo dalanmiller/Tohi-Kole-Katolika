@@ -1,12 +1,52 @@
 {
   "prayers": [
     {
-      "name_tongan": "LOTU TUI ‘A E KAU ‘APOSETOLÓ",
-      "name_english": "The Apostles' Creed",
+      "name_tongan": "FAKA’ILONGA ‘O E KOLOSÍ",
+      "name_english": "The Sign of the Cross",
       "section": "KO E NGAAHI KOLE ‘OKU TOUTOU LAU ‘E HE KĀINGALOTÚ",
       "number": 1,
       "text":
-        "‘Oku ou tui ki he ‘Otuá koe Tamai māfimafi, ‘a ē na’á ne fakatupu ‘a e langí mo māmaní. Pea ‘oku ou tui kia Sēsū Kilistō, ko hono ‘Alo pē ‘e taha, ko tohau ‘Eikí; ‘a ē na’e tupu-tangata ‘i he ngāue pē ‘a e Laumālie Mā’oni’oní, pea ‘alo’i ia ‘e he Tāupo’ou ko Maliá, peá ne mamahi ia ‘i he pule ‘a Ponitō Pailató; na’e kalusefai foki ia ‘o pekia, pea telio, pea hā’ele hifo ia ki he kau maté, pea tu’u ia ‘i hono ‘aho tolu mei he pekiá, pea hā’ele hake ia ki Hēvani, ‘o ‘afio ‘i he to’omata’u ‘o e ‘Otua ko e Tamai māfimafi, pea ‘e toki hā’ele mai mei ai, ke fakamaau’i ‘a e mo’uí mo e maté. Pea ‘oku ou tui foki ki he Laumālie Mā’oni’oní, mo e Sanagata ‘Ekelesia Katoliká, mo e feohi ‘a e kakai angatonú, mo e fakamolemole ‘o e angahalá, mo e tu’u hake ‘a e sinó pea mo e mo’ui ta’engatá. ‘Āmeni. "
+        "‘I he Huafa ‘o e Tamaí, mo e ‘Aló, mo e Laumālie Mā’oni’oní.‘Āmeni"
+    }
+  ],
+  [
+    {
+      "name_tongan": "KOLE FAKA’EIKÍ",
+      "name_english": "The Lord's Prayer",
+      "section": "KO E NGAAHI KOLE ‘OKU TOUTOU LAU ‘E HE KĀINGALOTÚ",
+      "number": 2,
+      "text":
+        "‘Ēi ‘emau Tamai, ‘oku ‘i Hēvaní, ke tāpuhā ho Huafá, ke hoko mai ho Pule’angá, ke fai ho finangaló ‘i māmani, ‘o hangē ko ia ‘i Hēvaní. Foaki mai he ‘ahó ni ha’amau me’a-kai faka’aho, peá ke fakamolemole’i ‘emau ngaahi angahalá, ‘o hangē ko ‘emau fakamolemole’i kinautolu ‘oku fai-hala mai kiate kimautolú pea ‘oua na’á ke tuku kimautolu ke mau hinga ki ha fakatauvele ka ke fakahaofi kimautolu mei he koví."
+    }
+  ],
+  [
+    {
+      "name_tongan": "SI’OTO’OFA MALIA",
+      "name_english": "The Rosary",
+      "section": "KO E NGAAHI KOLE ‘OKU TOUTOU LAU ‘E HE KĀINGALOTÚ",
+      "number": 3,
+      "text":
+        "Si’oto’ofa Malia, ‘okú ke mohu kalāsia, ‘oku ‘iate koe ‘a e ‘Eikí, ‘okú ke monū’ia koe ‘i he fefine fua pē, pea ‘oku faitāpuekina ‘a e fua ho manavá ko Sēsū. Sangata Malia, Fa’ē ‘a e ‘Otuá, ke ke hūfia kimautolu angahalá, ‘i he ‘ahó ni pea mo e aho foki ‘emau maté. ‘Āmeni."
+    }
+  ],
+  [
+    {
+      "name_tongan": "KOLŌLIA",
+      "name_english": "Glory Be",
+      "section": "KO E NGAAHI KOLE ‘OKU TOUTOU LAU ‘E HE KĀINGALOTÚ",
+      "number": 4,
+      "text":
+        "Kolōlia ki he Tamaí, moe ‘Aló, mo e Laumālie Mā’oni’oní. ‘Io, Tauange ke hangē ko hono kolōlia ‘i mu’á, ‘a hono kolōlia ‘i he ‘aho ní pea mo e ‘aho kotoa pē ‘o ta’engata. ‘Āmeni."
+    }
+  ],
+  [
+    {
+      "name_tongan": "LOTU TUI ‘A E KAU ‘APOSETOLÓ",
+      "name_english": "The Apostles' Creed",
+      "section": "KO E NGAAHI KOLE ‘OKU TOUTOU LAU ‘E HE KĀINGALOTÚ",
+      "number": 5,
+      "text":
+        "‘Oku ou tui ki he ‘Otuá koe Tamai māfimafi, ‘a ē na’á ne fakatupu ‘a e langí mo māmaní. Pea ‘oku ou tui kia Sēsū Kilistō, ko hono ‘Alo pē ‘e taha, ko tohau ‘Eikí; ‘a ē na’e tupu-tangata ‘i he ngāue pē ‘a e Laumālie Mā’oni’oní, pea ‘alo’i ia ‘e he Tāupo’ou ko Maliá, peá ne mamahi ia ‘i he pule ‘a Ponitō Pailató; na’e kalusefai foki ia ‘o pekia, pea telio, pea hā’ele hifo ia ki he kau maté, pea tu’u ia ‘i hono ‘aho tolu mei he pekiá, pea hā’ele hake ia ki Hēvani, ‘o ‘afio ‘i he to’omata’u ‘o e ‘Otua ko e Tamai māfimafi, pea ‘e toki hā’ele mai mei ai, ke fakamaau’i ‘a e mo’uí mo e maté. Pea ‘oku ou tui foki ki he Laumālie Mā’oni’oní, mo e Sanagata ‘Ekelesia Katoliká, mo e feohi ‘a e kakai angatonú, mo e fakamolemole ‘o e angahalá, mo e tu’u hake ‘a e sinó pea mo e mo’ui ta’engatá. ‘Āmeni."
     }
   ],
   "version": "1.0"
