@@ -56,7 +56,27 @@
       "section": "KO E NGAAHI KOLE ‘OKU TOUTOU LAU ‘E HE KĀINGALOTÚ",
       "number": 6,
       "text":
-        "<p> V - Na’e fetapa ‘a e ‘Āneglo ‘a e ‘Eikí kia Malia. R - Pea feitama ia ‘i he Laumālie Mā’oni’oní. </p> <p>Si’oto’ofa Malia…</p> <p>V - Ko áu ko e kaunanga ‘a e ‘Eikí. R - Ke hoko mai kiate au ‘o hangē ko ho’o leá.</p> <p> Si’oto’ofa Malia…</p> <p>V - Pea na’e hoko ‘a e Folofolá ko e kakano. R - Pea ‘Afio ia ‘iate kitautolu.</p> <p>Si’oto’ofa Malia…</p> <p>V - Ke ke hūfia kimautolu ‘e koe, ko e Fa’ē tapu ‘a e ‘Otuá. R - Koe ‘uhí ke mau ‘aonga ai ki he folofola ‘a e Kilistoó.</p>"
+        "<p> V - Na’e fetapa ‘a e ‘Āneglo ‘a e ‘Eikí kia Malia. R - Pea feitama ia ‘i he Laumālie Mā’oni’oní. </p> <p>Si’oto’ofa Malia…</p> <p>V - Ko áu ko e kaunanga ‘a e ‘Eikí. R - Ke hoko mai kiate au ‘o hangē ko ho’o leá.</p> <p> Si’oto’ofa Malia…</p> <p>V - Pea na’e hoko ‘a e Folofolá ko e kakano. R - Pea ‘Afio ia ‘iate kitautolu.</p> <p>Si’oto’ofa Malia…</p> <p>V - Ke ke hūfia kimautolu ‘e koe, ko e Fa’ē tapu ‘a e ‘Otuá. R - Koe ‘uhí ke mau ‘aonga ai ki he folofola ‘a e Kilistoó.</p> <p>Ke tau kole:‘Oku mau kole atu ‘Eiki, ke ke tuku mai ho’o kalāsiá ki homau lotó, pea ko kimautolú ni ‘oku mau ‘ilo’i ‘a e tupu-tangata ‘a ho ‘Alo ko e Kilistoó ‘i he fetapa ‘a e ‘Ānegló, ‘ofa ke mau hoko ‘i hono mamahí mo hono kolosi, ki he kolōlia ‘o e toe mo’uí. Koe ‘uhí ko Sēsū Kilistō, ko homau ‘Eikí. ‘Āmeni.</p>"
+    }
+  ],
+  [
+    {
+      "name_tongan": "KO E FETAPA FAKA-TOETU’Ú",
+      "name_english": "Regina Coeli",
+      "section": "KO E NGAAHI KOLE ‘OKU TOUTOU LAU ‘E HE KĀINGALOTÚ",
+      "number": 7,
+      "text":
+        "<p>V - Kuini ‘o Hēvaní, ke ke fiefia, ‘aleluiā. R - He ko iá kuó ke ‘aonga ke ‘alo’i, ‘aleluiā.</p> <p>V - Kuo toe laumālie ia ‘o hangē ko ‘ene folofolá, ‘aleluiā. R - Ke ke hūfaki’i kimautolu ki he ‘Otuá, ‘aleluiā.</p> <p>V - ‘Io, ke ke fiefia mo nēkeneka, ‘e Tāupo’ou ko Maliá, ‘aleluiā. R - Koe ‘uhí kuo toe laumālie mo’oni ‘a e ‘Eikí, ‘aleluiā.</p> <p>Ke tau kole:‘E ‘Otua, na’á ke finangalo ke ke fiefia’i ‘aki ‘a māmani ‘a e toe laumālie ‘a Sēsū Kilistoó, ko ho ‘Alo ka ko homau ‘Eikí; ‘oku mau kole atu ke ke ‘alo’ofa mai, koe ‘uhí ko ‘ene Fa’ē ko e Tāupo’ou ko Maliá, ke mau ma’u ai ‘a e fiefia moe mo’ui ta’engatá. ‘Oku mau kole atu ‘aki ‘a Sēsū Kilistō, ko homau ‘Eikí. ‘Āmeni.</p>"
+    }
+  ],
+  [
+    {
+      "name_tongan": "KO E LOTU FAKATOMALA NOUNOÚ",
+      "name_english": "A Short Act of Contrition",
+      "section": "KO E NGAAHI KOLE ‘OKU TOUTOU LAU ‘E HE KĀINGALOTÚ",
+      "number": 8,
+      "text":
+        "‘E hoku ‘Otua, ‘oku ou fakatomala mo’oni ‘i he’eku ngaahi angahala kotoa pē, koe ‘uhí he ‘okú ke fu’u mātu’aki angalelei ‘aupito, pea ‘oku ou ‘ofa mo’oni ai kiate koe pea mo fakapapau foki he ‘ikai te u toe angahala. ‘Āmeni."
     }
   ],
   "version": "1.0"
