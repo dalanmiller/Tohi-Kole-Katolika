@@ -49,5 +49,15 @@
         "‘Oku ou tui ki he ‘Otuá koe Tamai māfimafi, ‘a ē na’á ne fakatupu ‘a e langí mo māmaní. Pea ‘oku ou tui kia Sēsū Kilistō, ko hono ‘Alo pē ‘e taha, ko tohau ‘Eikí; ‘a ē na’e tupu-tangata ‘i he ngāue pē ‘a e Laumālie Mā’oni’oní, pea ‘alo’i ia ‘e he Tāupo’ou ko Maliá, peá ne mamahi ia ‘i he pule ‘a Ponitō Pailató; na’e kalusefai foki ia ‘o pekia, pea telio, pea hā’ele hifo ia ki he kau maté, pea tu’u ia ‘i hono ‘aho tolu mei he pekiá, pea hā’ele hake ia ki Hēvani, ‘o ‘afio ‘i he to’omata’u ‘o e ‘Otua ko e Tamai māfimafi, pea ‘e toki hā’ele mai mei ai, ke fakamaau’i ‘a e mo’uí mo e maté. Pea ‘oku ou tui foki ki he Laumālie Mā’oni’oní, mo e Sanagata ‘Ekelesia Katoliká, mo e feohi ‘a e kakai angatonú, mo e fakamolemole ‘o e angahalá, mo e tu’u hake ‘a e sinó pea mo e mo’ui ta’engatá. ‘Āmeni."
     }
   ],
+  [
+    {
+      "name_tongan": "FETAPA",
+      "name_english": "The Angelus",
+      "section": "KO E NGAAHI KOLE ‘OKU TOUTOU LAU ‘E HE KĀINGALOTÚ",
+      "number": 6,
+      "text":
+        "<p> V - Na’e fetapa ‘a e ‘Āneglo ‘a e ‘Eikí kia Malia. R - Pea feitama ia ‘i he Laumālie Mā’oni’oní. </p> <p>Si’oto’ofa Malia…</p> <p>V - Ko áu ko e kaunanga ‘a e ‘Eikí. R - Ke hoko mai kiate au ‘o hangē ko ho’o leá.</p> <p> Si’oto’ofa Malia…</p> <p>V - Pea na’e hoko ‘a e Folofolá ko e kakano. R - Pea ‘Afio ia ‘iate kitautolu.</p> <p>Si’oto’ofa Malia…</p> <p>V - Ke ke hūfia kimautolu ‘e koe, ko e Fa’ē tapu ‘a e ‘Otuá. R - Koe ‘uhí ke mau ‘aonga ai ki he folofola ‘a e Kilistoó.</p>"
+    }
+  ],
   "version": "1.0"
 }
