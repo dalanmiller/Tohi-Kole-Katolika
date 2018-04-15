@@ -79,5 +79,15 @@
         "‘E hoku ‘Otua, ‘oku ou fakatomala mo’oni ‘i he’eku ngaahi angahala kotoa pē, koe ‘uhí he ‘okú ke fu’u mātu’aki angalelei ‘aupito, pea ‘oku ou ‘ofa mo’oni ai kiate koe pea mo fakapapau foki he ‘ikai te u toe angahala. ‘Āmeni."
     }
   ],
+  [
+    {
+      "name_tongan": "LOTU ‘Ā-HAKÉ",
+      "name_english": "Morning Waking Prayer",
+      "section": "KO E NGAAHI KOLE ‘OKU TOUTOU LAU ‘E HE KĀINGALOTÚ",
+      "number": 9,
+      "text":
+        "1. Faka’ilonga ‘o e Kolosí.</br> 2. Si’oto ‘ofa Malia (tu’o tolu)</br> 3. Lotu Foaki: ‘E Sēsū, ‘oku ou foaki atú ni kiate koe, ‘aki ‘a e loto fungani ma’a ‘o Maliá, kotoa pē ‘eku lotú mo ‘eku ngaué, mo e fiefiá pea mo e mamahi kotoa pē ‘o e ‘aho ní, koe ‘uhí ke u fai ai pē ki ho finangalo ‘ofá. ‘Āmeni.</br> 4. Kole ki he ‘Āngelo Tauhí: ‘E ‘Āngelo ‘a e ‘Otuá, ko hoku Tauhi, kuo tuku au kiate koe ‘e he ‘Afio ‘alo’ofá, ke ke fakapoto’i au, mo le’ohi au mo taki au mo pule’i au. ‘Āmeni.</br> 5. Kole kia Sangato Sōsefo: ‘E Sangato Sōsefo, ke ke tokoni mai kiate au ‘i he ‘eku nofo faingata’a’ia ‘i lalo ní , koe ‘uhí ke ma’a mo haohaoa ai ‘a ‘eku mo’uí. ‘Āmeni."
+    }
+  ],
   "version": "1.0"
 }
