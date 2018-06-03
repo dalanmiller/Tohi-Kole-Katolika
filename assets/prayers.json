@@ -7,9 +7,9 @@
       "number": 1,
       "text":
         "‘I he Huafa ‘o e Tamaí, mo e ‘Aló, mo e Laumālie Mā’oni’oní.‘Āmeni"
-    }
-  ],
-  [
+    },
+
+
     {
       "name_tongan": "KOLE FAKA’EIKÍ",
       "name_english": "The Lord's Prayer",
@@ -17,9 +17,7 @@
       "number": 2,
       "text":
         "‘Ēi ‘emau Tamai, ‘oku ‘i Hēvaní, ke tāpuhā ho Huafá, ke hoko mai ho Pule’angá, ke fai ho finangaló ‘i māmani, ‘o hangē ko ia ‘i Hēvaní. Foaki mai he ‘ahó ni ha’amau me’a-kai faka’aho, peá ke fakamolemole’i ‘emau ngaahi angahalá, ‘o hangē ko ‘emau fakamolemole’i kinautolu ‘oku fai-hala mai kiate kimautolú pea ‘oua na’á ke tuku kimautolu ke mau hinga ki ha fakatauvele ka ke fakahaofi kimautolu mei he koví."
-    }
-  ],
-  [
+    },
     {
       "name_tongan": "SI’OTO’OFA MALIA",
       "name_english": "The Rosary",
@@ -27,9 +25,7 @@
       "number": 3,
       "text":
         "Si’oto’ofa Malia, ‘okú ke mohu kalāsia, ‘oku ‘iate koe ‘a e ‘Eikí, ‘okú ke monū’ia koe ‘i he fefine fua pē, pea ‘oku faitāpuekina ‘a e fua ho manavá ko Sēsū. Sangata Malia, Fa’ē ‘a e ‘Otuá, ke ke hūfia kimautolu angahalá, ‘i he ‘ahó ni pea mo e aho foki ‘emau maté. ‘Āmeni."
-    }
-  ],
-  [
+    },
     {
       "name_tongan": "KOLŌLIA",
       "name_english": "Glory Be",
@@ -37,9 +33,7 @@
       "number": 4,
       "text":
         "Kolōlia ki he Tamaí, moe ‘Aló, mo e Laumālie Mā’oni’oní. ‘Io, Tauange ke hangē ko hono kolōlia ‘i mu’á, ‘a hono kolōlia ‘i he ‘aho ní pea mo e ‘aho kotoa pē ‘o ta’engata. ‘Āmeni."
-    }
-  ],
-  [
+    },
     {
       "name_tongan": "LOTU TUI ‘A E KAU ‘APOSETOLÓ",
       "name_english": "The Apostles' Creed",
@@ -47,9 +41,7 @@
       "number": 5,
       "text":
         "‘Oku ou tui ki he ‘Otuá koe Tamai māfimafi, ‘a ē na’á ne fakatupu ‘a e langí mo māmaní. Pea ‘oku ou tui kia Sēsū Kilistō, ko hono ‘Alo pē ‘e taha, ko tohau ‘Eikí; ‘a ē na’e tupu-tangata ‘i he ngāue pē ‘a e Laumālie Mā’oni’oní, pea ‘alo’i ia ‘e he Tāupo’ou ko Maliá, peá ne mamahi ia ‘i he pule ‘a Ponitō Pailató; na’e kalusefai foki ia ‘o pekia, pea telio, pea hā’ele hifo ia ki he kau maté, pea tu’u ia ‘i hono ‘aho tolu mei he pekiá, pea hā’ele hake ia ki Hēvani, ‘o ‘afio ‘i he to’omata’u ‘o e ‘Otua ko e Tamai māfimafi, pea ‘e toki hā’ele mai mei ai, ke fakamaau’i ‘a e mo’uí mo e maté. Pea ‘oku ou tui foki ki he Laumālie Mā’oni’oní, mo e Sanagata ‘Ekelesia Katoliká, mo e feohi ‘a e kakai angatonú, mo e fakamolemole ‘o e angahalá, mo e tu’u hake ‘a e sinó pea mo e mo’ui ta’engatá. ‘Āmeni."
-    }
-  ],
-  [
+    },
     {
       "name_tongan": "FETAPA",
       "name_english": "The Angelus",
@@ -57,9 +49,7 @@
       "number": 6,
       "text":
         "<p> V - Na’e fetapa ‘a e ‘Āneglo ‘a e ‘Eikí kia Malia. R - Pea feitama ia ‘i he Laumālie Mā’oni’oní. </p> <p>Si’oto’ofa Malia…</p> <p>V - Ko áu ko e kaunanga ‘a e ‘Eikí. R - Ke hoko mai kiate au ‘o hangē ko ho’o leá.</p> <p> Si’oto’ofa Malia…</p> <p>V - Pea na’e hoko ‘a e Folofolá ko e kakano. R - Pea ‘Afio ia ‘iate kitautolu.</p> <p>Si’oto’ofa Malia…</p> <p>V - Ke ke hūfia kimautolu ‘e koe, ko e Fa’ē tapu ‘a e ‘Otuá. R - Koe ‘uhí ke mau ‘aonga ai ki he folofola ‘a e Kilistoó.</p> <p>Ke tau kole:‘Oku mau kole atu ‘Eiki, ke ke tuku mai ho’o kalāsiá ki homau lotó, pea ko kimautolú ni ‘oku mau ‘ilo’i ‘a e tupu-tangata ‘a ho ‘Alo ko e Kilistoó ‘i he fetapa ‘a e ‘Ānegló, ‘ofa ke mau hoko ‘i hono mamahí mo hono kolosi, ki he kolōlia ‘o e toe mo’uí. Koe ‘uhí ko Sēsū Kilistō, ko homau ‘Eikí. ‘Āmeni.</p>"
-    }
-  ],
-  [
+    },
     {
       "name_tongan": "KO E FETAPA FAKA-TOETU’Ú",
       "name_english": "Regina Coeli",
@@ -67,9 +57,7 @@
       "number": 7,
       "text":
         "<p>V - Kuini ‘o Hēvaní, ke ke fiefia, ‘aleluiā. R - He ko iá kuó ke ‘aonga ke ‘alo’i, ‘aleluiā.</p> <p>V - Kuo toe laumālie ia ‘o hangē ko ‘ene folofolá, ‘aleluiā. R - Ke ke hūfaki’i kimautolu ki he ‘Otuá, ‘aleluiā.</p> <p>V - ‘Io, ke ke fiefia mo nēkeneka, ‘e Tāupo’ou ko Maliá, ‘aleluiā. R - Koe ‘uhí kuo toe laumālie mo’oni ‘a e ‘Eikí, ‘aleluiā.</p> <p>Ke tau kole:‘E ‘Otua, na’á ke finangalo ke ke fiefia’i ‘aki ‘a māmani ‘a e toe laumālie ‘a Sēsū Kilistoó, ko ho ‘Alo ka ko homau ‘Eikí; ‘oku mau kole atu ke ke ‘alo’ofa mai, koe ‘uhí ko ‘ene Fa’ē ko e Tāupo’ou ko Maliá, ke mau ma’u ai ‘a e fiefia moe mo’ui ta’engatá. ‘Oku mau kole atu ‘aki ‘a Sēsū Kilistō, ko homau ‘Eikí. ‘Āmeni.</p>"
-    }
-  ],
-  [
+    },
     {
       "name_tongan": "KO E LOTU FAKATOMALA NOUNOÚ",
       "name_english": "A Short Act of Contrition",
@@ -77,9 +65,7 @@
       "number": 8,
       "text":
         "‘E hoku ‘Otua, ‘oku ou fakatomala mo’oni ‘i he’eku ngaahi angahala kotoa pē, koe ‘uhí he ‘okú ke fu’u mātu’aki angalelei ‘aupito, pea ‘oku ou ‘ofa mo’oni ai kiate koe pea mo fakapapau foki he ‘ikai te u toe angahala. ‘Āmeni."
-    }
-  ],
-  [
+    },
     {
       "name_tongan": "LOTU ‘Ā-HAKÉ",
       "name_english": "Morning Waking Prayer",
