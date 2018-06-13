@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:material_search/material_search.dart';
+
+import 'package:intl/intl.dart';
 
 void main() => runApp(const TohiKoleKatolika());
 
@@ -76,15 +79,21 @@ class _PrayerListState extends State<PrayerList> {
   Widget buildPrayerPage(BuildContext context, Prayer prayer) {
     return new SimpleDialog(
 //      contentPadding: EdgeInsets.,
+      title: new Text(prayer.nameTongan,
+      style: new TextStyle(
+        fontWeight: FontWeight.bold,
+        fontFamily: 'Vallkorn',
+        fontSize: 18.0,
+      )),
       children: [
-          Container(
-              padding: const EdgeInsets.only(bottom: 8.0),
-              child: new Text(prayer.nameTongan,
-                  style: new TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontFamily: 'Vollkorn',
-                    fontSize: 18.0,
-                  ))),
+//          Container(
+//              padding: const EdgeInsets.only(bottom: 8.0),
+//              child: new Text(prayer.nameTongan,
+//                  style: new TextStyle(
+//                    fontWeight: FontWeight.bold,
+//                    fontFamily: 'Vollkorn',
+//                    fontSize: 18.0,
+//                  ))),
           // buttonSection,
           Container(
             padding: const EdgeInsets.all(16.0),
@@ -115,19 +124,24 @@ class _PrayerListState extends State<PrayerList> {
             fontFamily: 'Vollkorn',
           )),
       subtitle: new Text(subtitle),
-      onTap: () => showDialog(
-         context: context,
-         builder: (context) => buildPrayerPage(context, prayer),
-      )
+      onTap: () =>
+          Navigator.push(context, new MaterialPageRoute<DismissDialogAction>(
+            builder: (BuildContext context) => new PrayerPopUpPage(prayer: prayer),
+            fullscreenDialog: true,
+          ))
+//          showDialog(
+//         context: context,
+//         builder: (context) => buildPrayerPage(context, prayer),
+
     );
   }
 
   @override
   Widget build(BuildContext context) {
     Iterable<Widget> listTiles;
+    // Ensure prayers have been read from JSON file.
     if (_prayers != null) {
-      listTiles =
-          _prayers.map((Prayer prayer) => buildListTile(context, prayer));
+      listTiles = _prayers.map((Prayer prayer) => buildListTile(context, prayer));
     }
 
     return new Scaffold(
@@ -137,13 +151,21 @@ class _PrayerListState extends State<PrayerList> {
               style: new TextStyle(
                 fontWeight: FontWeight.w800,
                 fontFamily: "Vollkorn",
-                fontSize: 32.0,
+                fontSize: 24.0,
                 color: Colors.white,
-              ))),
-      body: new Scrollbar(
+              )),
+          actions: <Widget>[
+              new IconButton(
+                icon: new Icon(Icons.search),
+                onPressed: () =>
+                  print('hi'),
+              )
+          ]),
+      body:
+         new Scrollbar(
         child: new ListView(
           padding: new EdgeInsets.symmetric(vertical: 4.0),
-          children: listTiles.toList(),
+          children: listTiles != null ? listTiles.toList() : <Widget>[],
         ),
       ),
     );
@@ -660,6 +682,224 @@ class _PrayerListState extends State<PrayerList> {
 //        child: _buildTransitionsStack()
 //      ),
 //      bottomNavigationBar: botNavBar,
+//    );
+//  }
+//}
+enum DismissDialogAction {
+  cancel,
+  discard,
+  save,
+}
+
+//Widget buildFullScreenPrayer(BuildContext context, Prayer prayer) {
+//  return
+//}
+
+class PrayerPopUpPage extends StatelessWidget {
+  PrayerPopUpPage({this.prayer});
+
+  final Prayer prayer;
+
+  @override
+  Widget build(BuildContext context) {
+    final ThemeData theme = Theme.of(context);
+
+    return new Scaffold(
+      appBar: new AppBar(
+//          title: new Text(prayer.nameTongan),
+      ),
+      body: new Container(
+        child: new Column(
+          children: [
+            new Container(
+              padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 32.0),
+              child: new Text(
+                prayer.nameTongan,
+                style: new TextStyle(
+                  fontWeight: FontWeight.w800,
+                  fontSize: 32.0,
+                )
+              ),
+              alignment: Alignment.centerLeft,
+            ),
+            new Container(
+              padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 32.0),
+              child: new Text(
+                prayer.text,
+                style: new TextStyle(
+                  fontWeight: FontWeight.normal,
+                  fontSize: 18.0,
+                )
+              )
+            )
+          ]
+        )
+      )
+    );
+  }
+}
+
+//class FullScreenDialogDemoState extends State<FullScreenDialogDemo> {
+//  DateTime _fromDateTime = new DateTime.now();
+//  DateTime _toDateTime = new DateTime.now();
+//  bool _allDayValue = false;
+//  bool _saveNeeded = false;
+//  bool _hasLocation = false;
+//  bool _hasName = false;
+//  String _eventName;
+//
+//  Future<bool> _onWillPop() async {
+//    _saveNeeded = _hasLocation || _hasName || _saveNeeded;
+//    if (!_saveNeeded)
+//      return true;
+//
+//    final ThemeData theme = Theme.of(context);
+//    final TextStyle dialogTextStyle = theme.textTheme.subhead.copyWith(color: theme.textTheme.caption.color);
+//
+//    return await showDialog<bool>(
+//      context: context,
+//      builder: (BuildContext context) {
+//        return new AlertDialog(
+//          content: new Text(
+//              'Discard new event?',
+//              style: dialogTextStyle
+//          ),
+//          actions: <Widget>[
+//            new FlatButton(
+//                child: const Text('CANCEL'),
+//                onPressed: () {
+//                  Navigator.of(context).pop(false); // Pops the confirmation dialog but not the page.
+//                }
+//            ),
+//            new FlatButton(
+//                child: const Text('DISCARD'),
+//                onPressed: () {
+//                  Navigator.of(context).pop(true); // Returning true to _onWillPop will pop again.
+//                }
+//            )
+//          ],
+//        );
+//      },
+//    ) ?? false;
+//  }
+//
+//  @override
+//  Widget build(BuildContext context) {
+//    final ThemeData theme = Theme.of(context);
+//
+//    return new Scaffold(
+//      appBar: new AppBar(
+//          title: new Text(_hasName ? _eventName : 'Event Name TBD'),
+//          actions: <Widget> [
+//            new FlatButton(
+//                child: new Text('SAVE', style: theme.textTheme.body1.copyWith(color: Colors.white)),
+//                onPressed: () {
+//                  Navigator.pop(context, DismissDialogAction.save);
+//                }
+//            )
+//          ]
+//      ),
+//      body: new Form(
+//          onWillPop: _onWillPop,
+//          child: new ListView(
+//              padding: const EdgeInsets.all(16.0),
+//              children: <Widget>[
+//                new Container(
+//                    padding: const EdgeInsets.symmetric(vertical: 8.0),
+//                    alignment: Alignment.bottomLeft,
+//                    child: new TextField(
+//                        decoration: const InputDecoration(
+//                            labelText: 'Event name',
+//                            filled: true
+//                        ),
+//                        style: theme.textTheme.headline,
+//                        onChanged: (String value) {
+//                          setState(() {
+//                            _hasName = value.isNotEmpty;
+//                            if (_hasName) {
+//                              _eventName = value;
+//                            }
+//                          });
+//                        }
+//                    )
+//                ),
+//                new Container(
+//                    padding: const EdgeInsets.symmetric(vertical: 8.0),
+//                    alignment: Alignment.bottomLeft,
+//                    child: new TextField(
+//                        decoration: const InputDecoration(
+//                            labelText: 'Location',
+//                            hintText: 'Where is the event?',
+//                            filled: true
+//                        ),
+//                        onChanged: (String value) {
+//                          setState(() {
+//                            _hasLocation = value.isNotEmpty;
+//                          });
+//                        }
+//                    )
+//                ),
+////                new Column(
+////                    crossAxisAlignment: CrossAxisAlignment.start,
+////                    children: <Widget>[
+////                      new Text('From', style: theme.textTheme.caption),
+////                      new DateTimeItem(
+////                          dateTime: _fromDateTime,
+////                          onChanged: (DateTime value) {
+////                            setState(() {
+////                              _fromDateTime = value;
+////                              _saveNeeded = true;
+////                            });
+////                          }
+////                      )
+////                    ]
+////                ),
+////                new Column(
+////                    crossAxisAlignment: CrossAxisAlignment.start,
+////                    children: <Widget>[
+////                      new Text('To', style: theme.textTheme.caption),
+////                      new DateTimeItem(
+////                          dateTime: _toDateTime,
+////                          onChanged: (DateTime value) {
+////                            setState(() {
+////                              _toDateTime = value;
+////                              _saveNeeded = true;
+////                            });
+////                          }
+////                      ),
+////                      const Text('All-day'),
+////                    ]
+////                ),
+////                new Container(
+////                    decoration: new BoxDecoration(
+////                        border: new Border(bottom: new BorderSide(color: theme.dividerColor))
+////                    ),
+////                    child: new Row(
+////                        children: <Widget> [
+////                          new Checkbox(
+////                              value: _allDayValue,
+////                              onChanged: (bool value) {
+////                                setState(() {
+////                                  _allDayValue = value;
+////                                  _saveNeeded = true;
+////                                });
+////                              }
+////                          ),
+////                          const Text('All-day'),
+////                        ]
+////                    )
+////                )
+//              ]
+//                  .map((Widget child) {
+//                return new Container(
+//                    padding: const EdgeInsets.symmetric(vertical: 8.0),
+//                    height: 96.0,
+//                    child: child
+//                );
+//              })
+//                  .toList()
+//          )
+//      ),
 //    );
 //  }
 //}
